@@ -1,0 +1,19 @@
+
+.mt-4 {
+    color: #fff;
+    background-color: #f4511e;
+}
+
+.mt-4 h1 {
+    font-size: 75px;
+    font-weight: normal;
+}
+
+.mt-4 p {
+    font-size: 20px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+}
