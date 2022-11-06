@@ -183,3 +183,8 @@ h5 {
     border-color: transparent;
     color: #fff !important;
   }
+
+.footer a i {
+    color: #f4511e;
+    font-size: 25px;
+}
