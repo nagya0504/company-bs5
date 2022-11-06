@@ -87,6 +87,65 @@ form {
     color: #f4511e;
 }
 
-h4 {
+h5 {
     text-align: center;
 }
+
+.card-footer .btn {
+    background-color: #f4511e;
+    color: #fff;
+}
+
+.card p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.card-footer {
+    background-color: #fff;
+}
+
+.card {
+    border: 1px solid #f4511e;
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.card:hover {
+    box-shadow:  5px 0px 40px rgba(0,0,0, .2);
+}
+
+.card-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+
+.card-header {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}    
+
+.card-footer {
+    background-color: #fff !important;
+}
+  
+.card-footer h3 {
+    font-size: 32px;
+}
+  
+.card-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.card h1 {
+    margin: 50px auto;
+}
+  
