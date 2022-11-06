@@ -1,15 +1,15 @@
 
-.mt-4 {
+.mb-4 {
     color: #fff;
     background-color: #f4511e;
 }
 
-.mt-4 h1 {
+.mb-4 h1 {
     font-size: 75px;
     font-weight: normal;
 }
 
-.mt-4 p {
+.mb-4 p {
     font-size: 20px;
 }
 
@@ -27,6 +27,7 @@ form {
 
 .container-fluid {
     padding: 60px 50px;
+    margin: 0;
 }
 
 .container-fluid h2 {
@@ -153,3 +154,32 @@ h5 {
     margin: 20px;
     max-width: 300px;
 }
+
+.navbar .container-fluid {
+    padding: 0;  
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    display: flex;
+  }
+  
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+    margin: 0;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
